@@ -1,3 +1,4 @@
+/*
 import { Testimonial } from '@/lib/types'
 import { isInViewport } from '@/utils'
 import { StarIcon } from '@/utils/icons'
@@ -51,3 +52,4 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
 }
 
 export default TestimonialCard
+*/

@@ -9,11 +9,11 @@ const Footer = () => {
         <div>
           <h5 className="mb-8 flex items-center gap-2">
             <Logo width={30} height={24} />
-            <span className="text-neutral text-lg font-medium">Logoipsum</span>
+            <span className="text-neutral text-lg font-medium">Dayjee</span>
           </h5>
           <p className="text-tertiary-content">
-            The first free end-to-end analytics service for the site, designed to work with
-            enterprises of various levels and business segments.
+            Portfolio by Deidre • Frontend Developer • Learning Full-Stack
+            A portfolio showcasing my journey from frontend to full-stack development
           </p>
           <a
             href="#"
@@ -48,7 +48,7 @@ const Footer = () => {
             ))}
           </ul>
           <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
-            <span>© 2025 — Copyright</span>
+            <span>© 2026 — Copyright</span>
             <span>All Rights reserved</span>
           </p>
         </div>
@@ -58,22 +58,27 @@ const Footer = () => {
             <div className="flex flex-col">
               <h5 className="text-neutral mb-4 text-lg font-medium">Contact Us</h5>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:deidreedwards05@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                johndoe@gmail.com
+                deidreedwards05@gmail.com
               </a>
               <a
-                href="tel:+92 3123456789"
+                href="tel:+447543833335"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                +92 3123456789
+                +44 7543833335
+              </a>
+              <a
+                href="tel:+13459396817"
+                className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
+                +1 (345) 939 6817
               </a>
             </div>
             <div>
               <div>
                 <h5 className="text-neutral mb-4 text-lg font-medium">Location</h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Pakistan</span>
-                  <span>Karachi 22/5/8, Office 4</span>
+                  <span>Currently living in the UK</span>
+                  <span>From the Cayman Islands</span>
                 </address>
               </div>
             </div>

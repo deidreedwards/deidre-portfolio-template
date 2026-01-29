@@ -72,6 +72,25 @@
   --gradient-end: #6d4c41;
 }
 
+/* Modern theme added to support theme named "Modern" in appData */
+[data-theme='modern'] {
+  --p: #ffffff; /* primary background */
+  --pc: #111827; /* primary content */
+  --s: #f3f4f6; /* secondary background */
+  --sc: #8b5cf6; /* secondary content / accent */
+  --tc: #6b7280; /* tertiary content */
+  --a: #8b5cf6; /* accent */
+  --n: #111827; /* neutral */
+
+  --b: #e6e7ee; /* border */
+  --marquee: #f3f4f6;
+
+  /* for logo */
+  --gradient-start: #8b5cf6;
+  --gradient-mid: #ec4899;
+  --gradient-end: #f3f4f6;
+}
+
 @theme {
   --color-primary: var(--p);
   --color-primary-content: var(--pc);

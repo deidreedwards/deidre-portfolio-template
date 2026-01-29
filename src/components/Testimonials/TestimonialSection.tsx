@@ -1,3 +1,4 @@
+/*
 'use client'
 
 import { Testimonial } from '@/lib/types'
@@ -44,3 +45,4 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonials })
 }
 
 export default TestimonialSection
+*/

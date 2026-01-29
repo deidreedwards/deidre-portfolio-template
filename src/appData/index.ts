@@ -138,13 +138,8 @@ export const skillList = [
 export const footerLinks = [
   { title: 'About', href: '#' },
   { title: 'Projects', href: '#projects' },
-  { title: 'Testimonials', href: '#testimonials' },
   {
-    title: 'Blogs',
-    href: '#blogs',
-  },
-  {
-    title: 'Services',
+    title: 'Skills',
     href: '#services',
   },
   {
@@ -156,7 +151,7 @@ export const footerLinks = [
 export const themes = [
   {
     name: 'Light',
-    colors: ['#fff', '#0d1a3b', '#dbe3f7', '#0d1a3b', '#5565e8'],
+    colors: ['#f8f9fa', '#1a1a1a', '#6366f1', '#ec4899', '#0f172a'],
   },
   {
     name: 'Dark',
@@ -169,6 +164,10 @@ export const themes = [
   {
     name: 'Retro',
     colors: ['#fff3e0', '#6d4c41', '#ffcc80', '#5d4037', '#ffab40'],
+  },
+  {
+    name: 'Modern',
+    colors: ['#ffffff', '#111827', '#f3f4f6', '#8b5cf6', '#ec4899'],
   },
 ]
 
