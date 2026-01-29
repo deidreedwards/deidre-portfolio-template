@@ -9,7 +9,7 @@ export default function About() {
           subtitle="A little more about my background, interests, and what I build"
         />
 
-        <div className="mt-6 text-pretty space-y-4">
+        <div className="mt-6 text-primary-content space-y-4">
           <p>
             Hi — I'm Deidre, a frontend developer who builds modern, accessible,
             and enjoyable web experiences. I enjoy working with React and
