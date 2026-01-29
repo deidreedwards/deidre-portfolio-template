@@ -5,6 +5,7 @@ import {
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
+  PythonIcon,
   ReactIcon,
   SocketIcon,
   TailwindCSS,
@@ -83,7 +84,7 @@ export const serviceData = [
     shortDescription: 'Developing scalable server-side applications using Python.',
   },
   {
-    icon: NextjsIcon,
+    icon: PythonIcon,
     title: 'Next.js Development',
     shortDescription: 'Creating server-rendered React applications with Next.js.',
   },

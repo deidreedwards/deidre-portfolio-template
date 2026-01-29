@@ -6,6 +6,7 @@ import JavaScriptIcon from '../assets/icons/javascript.svg'
 import Likes from '../assets/icons/likes.svg'
 import NestjsIcon from '../assets/icons/nest.svg'
 import NextjsIcon from '../assets/icons/nextjs.svg'
+import PythonIcon from '../assets/icons/python.svg'
 import NodejsIcon from '../assets/icons/nodejs.svg'
 import ReactIcon from '../assets/icons/react.svg'
 import SocketIcon from '../assets/icons/socket.svg'
@@ -325,6 +326,7 @@ export {
   MsgIcon,
   NestjsIcon,
   NextjsIcon,
+  PythonIcon,
   NodejsIcon,
   PhoneIcon,
   PreviewIcon,
