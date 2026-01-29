@@ -7,7 +7,7 @@ import Ellipse from './Ellipse'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
-  const role = useRoleSwitcher({ roles: ['FULLSTACK DEVELOPER', 'INDIE HACKER', 'SOLOPRENEUR'] })
+  const role = useRoleSwitcher({ roles: ['FRONTEND DEVELOPER', 'PLACEMENT STUDENT', 'CAYMANIAN', 'WOMAN IN STEM'] })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
@@ -27,7 +27,7 @@ const Hero = () => {
               href="#"
               aria-label="Connect with me"
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
-              Hire Me
+              About Me
             </a>
             <a
               href="https://www.linkedin.com/in/deidre-edwards-74a444204/"

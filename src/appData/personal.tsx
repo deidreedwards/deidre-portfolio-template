@@ -1,10 +1,10 @@
-import { Codepen, Facebook, GithubIcon, Instagram, LinkedIn, X } from '@/utils/icons'
+import { Codepen, GithubIcon, LinkedIn } from '@/utils/icons'
 
 export const socials = [
-  { href: '', icon: <GithubIcon /> },
-  { href: '', icon: <LinkedIn /> },
-  { href: '', icon: <Codepen /> },
-  { href: '', icon: <X /> },
+  { href: 'https://github.com/deidreedwards', icon: <GithubIcon /> },
+  { href: 'http://linkedin.com/in/deidre-edwards-74a444204/', icon: <LinkedIn /> },
+  { href: 'https://codepen.io/deidreedwards', icon: <Codepen /> },
+  /*{ href: '', icon: <X /> },
   { href: '', icon: <Instagram /> },
-  { href: '', icon: <Facebook /> },
+  { href: '', icon: <Facebook /> },*/
 ]

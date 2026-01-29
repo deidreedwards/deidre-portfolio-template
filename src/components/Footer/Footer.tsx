@@ -13,6 +13,8 @@ const Footer = () => {
           </h5>
           <p className="text-tertiary-content">
             Portfolio by Deidre • Frontend Developer • Learning Full-Stack
+          </p>
+          <p className="text-tertiary-content">
             A portfolio showcasing my journey from frontend to full-stack development
           </p>
           <a

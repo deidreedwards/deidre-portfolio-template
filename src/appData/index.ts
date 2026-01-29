@@ -79,8 +79,8 @@ export const serviceData = [
   },
   {
     icon: NodejsIcon,
-    title: 'Node.js Backend',
-    shortDescription: 'Developing scalable server-side applications using Node.js.',
+    title: 'Python Development',
+    shortDescription: 'Developing scalable server-side applications using Python.',
   },
   {
     icon: NextjsIcon,
