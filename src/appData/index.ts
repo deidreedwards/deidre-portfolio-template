@@ -79,12 +79,12 @@ export const serviceData = [
     shortDescription: 'Building modern and responsive user interfaces with React.js.',
   },
   {
-    icon: NodejsIcon,
+    icon: PythonIcon,
     title: 'Python Development',
     shortDescription: 'Developing scalable server-side applications using Python.',
   },
   {
-    icon: PythonIcon,
+    icon: NextjsIcon,
     title: 'Next.js Development',
     shortDescription: 'Creating server-rendered React applications with Next.js.',
   },
