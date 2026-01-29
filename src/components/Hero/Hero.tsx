@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import useRoleSwitcher from '@/hooks/useRoleSwitcher'
 import useRotatingAnimation from '@/hooks/useRotatingAnimation'
 import Image from 'next/image'
@@ -23,12 +24,12 @@ const Hero = () => {
           </h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
-            <a
-              href="#"
-              aria-label="Connect with me"
+            <Link
+              href="/about"
+              aria-label="About me"
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
               About Me
-            </a>
+            </Link>
             <a
               href="https://www.linkedin.com/in/deidre-edwards-74a444204/"
               aria-label="View LinkedIn Profile"

@@ -12,6 +12,10 @@ const navItems = [
     href: '/',
   },
   {
+    label: '_about',
+    href: '/about',
+  },
+  {
     label: '_projects',
     href: '/#projects',
   },
