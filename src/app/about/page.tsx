@@ -1,4 +1,6 @@
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
+import Image from 'next/image'
+import { AboutImage } from '@/utils/images'
 
 export default function About() {
   return (
@@ -34,6 +36,19 @@ export default function About() {
             If you'd like to collaborate or learn more, feel free to reach out
             via the contact form on the site.
           </p>
+        </div>
+
+        <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
+          <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
+            <Image
+              src={AboutImage}
+              fill={true}
+              priority={true}
+              sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
+              alt="Deidre Edwards - Professional Profile Image"
+              className="object-contain p-7"
+            />
+          </div>
         </div>
       </div>
     </main>
