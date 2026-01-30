@@ -11,43 +11,45 @@ export default function About() {
           subtitle="A little more about my background, interests, and what I build"
         />
 
-        <div className="mt-6 text-primary-content space-y-4">
-          <p>
-            Hi — I'm Deidre, a frontend developer who builds modern, accessible,
-            and enjoyable web experiences. I enjoy working with React and
-            Next.js to create fast, responsive UIs and focus on writing
-            maintainable code that people enjoy using.
-          </p>
+        <div className="mt-6 grid grid-cols-1 items-center gap-6 md:grid-cols-2 lg:gap-8">
+          <div className="text-primary-content space-y-4">
+            <p>
+              Hi — I'm Deidre, a frontend developer who builds modern, accessible,
+              and enjoyable web experiences. I enjoy working with React and
+              Next.js to create fast, responsive UIs and focus on writing
+              maintainable code that people enjoy using.
+            </p>
 
-          <p>
-            I'm from the beautiful Cayman Islands, but moved to the UK in 2023 to pursue
-            my studies at the University of Reading. I'm in the process of completing my
-            Bachelor's degree in Computer Science. I'm currently in my third (placement)
-            year, working as a Software Engineer at Eli Lilly.
-          </p>
+            <p>
+              I'm from the beautiful Cayman Islands, but moved to the UK in 2023 to pursue
+              my studies at the University of Reading. I'm in the process of completing my
+              Bachelor's degree in Computer Science. I'm currently in my third (placement)
+              year, working as a Software Engineer at Eli Lilly.
+            </p>
 
-          <p>
-            When I'm not coding, I love to read books (especially murder mystery), learning new
-            things, and work out. I'm passionate about
-            accessibility and continuous learning.
-          </p>
+            <p>
+              When I'm not coding, I love to read books (especially murder mystery), learning new
+              things, and work out. I'm passionate about
+              accessibility and continuous learning.
+            </p>
 
-          <p>
-            If you'd like to collaborate or learn more, feel free to reach out
-            via the contact form on the site.
-          </p>
-        </div>
+            <p>
+              If you'd like to collaborate or learn more, feel free to reach out
+              via the contact form on the site.
+            </p>
+          </div>
 
-        <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
-          <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
-            <Image
-              src={AboutImage}
-              fill={true}
-              priority={true}
-              sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
-              alt="Deidre Edwards - Professional Profile Image"
-              className="object-contain p-7"
-            />
+          <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
+            <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
+              <Image
+                src={AboutImage}
+                fill={true}
+                priority={true}
+                sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
+                alt="Deidre Edwards - Professional Profile Image"
+                className="object-contain p-7"
+              />
+            </div>
           </div>
         </div>
       </div>
